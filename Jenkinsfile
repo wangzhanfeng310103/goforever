@@ -9,7 +9,8 @@ peline {
         }        
         stage('Test') {            
             steps {                
-                echo 'Testing'            
+                echo 'Testing'
+                echo 'Test end'            
             }        
         }
     }
