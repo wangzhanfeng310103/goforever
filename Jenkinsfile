@@ -1,6 +1,6 @@
-peline {
-    agent {
-    }
+pipeline {
+    agent any 
+    
     stages {
         stage('Build') {            
             steps {                
@@ -13,6 +13,11 @@ peline {
                 echo 'Test end'            
             }        
         }
+        stage('Deploy') {
+            steps {
+                echo 'Deploying...'
+            }   
+        }    
     }
 }
 
