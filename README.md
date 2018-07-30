@@ -20,8 +20,8 @@ Run main process and output to current session.
 	./goforever
 
 ## CLI
-	list				List processes.
-	show [process]	    Show a main proccess or named process.
+	list		        List processes.
+	show [process]	        Show a main proccess or named process.
 	start [process]		Start a main proccess or named process.
 	stop [process]		Stop a main proccess or named process.
 	restart [process]	Restart a main proccess or named process.
