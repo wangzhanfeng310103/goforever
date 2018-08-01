@@ -3,6 +3,7 @@ pipeline {
     
     stages {
        stage("build & SonarQube analysis") {
+           agent any
            steps {
                def scannerHome = tool 'ss'
                withSonarQubeEnv('sonar_server') {
