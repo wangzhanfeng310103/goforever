@@ -46,7 +46,7 @@ func init() {
 }
 
 func main() {
-	if len(flag.Args()) > 0 {
+	if len(flag.Args()) > 0  && 1 > 0{
 		fmt.Printf("%s", Cli())
 		return
 	}
